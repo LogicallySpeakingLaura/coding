@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e464d651-2a0f-4e4d-9d6b-ab2675508175" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java/comparisons/CompareWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/comparisons/Liquid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/inheritance/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/inheritance/Cylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/inheritance/Prism.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/inheritance/Prism.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/inheritance/PrismSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/inheritance/PrismSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/inheritance/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/inheritance/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/comparisons/old/CompareBaseArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/comparisons/old/CompareHeight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/comparisons/old/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/old/binary-tree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/datastructures/old/binary-tree/BST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,7 @@
       <workItem from="1605583206457" duration="51000" />
       <workItem from="1605585365765" duration="172000" />
       <workItem from="1605660817978" duration="709000" />
-      <workItem from="1605661899372" duration="4056000" />
+      <workItem from="1605661899372" duration="6346000" />
     </task>
     <servers />
   </component>
@@ -81,6 +83,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="558" y="174" key="#com.intellij.ide.util.MemberChooser" timestamp="1605673315118">
+      <screen x="51" y="23" width="1389" height="877" />
+    </state>
+    <state x="558" y="174" key="#com.intellij.ide.util.MemberChooser/51.23.1389.877@51.23.1389.877" timestamp="1605673315118" />
     <state x="231" y="42" key="SettingsEditor" timestamp="1605662709255">
       <screen x="51" y="23" width="1389" height="877" />
     </state>
