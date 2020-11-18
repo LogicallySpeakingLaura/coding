@@ -1,69 +1,61 @@
 package inheritance;
 
-public class Cylinder extends Shape
+/**
+ * Class that demonstrates a subclass for inheritance.
+ *
+ * @author LogicallySpeakingLaura
+ * @version 2020.10.17
+ * @see Shape for superclass
+ */
+class Cylinder extends Shape
 {
+
     //Attributes
-    private double radius;
+    private int radius;
+
 
     //Constructors
-    /**
-     * Default constructor
-     */
-    public Cylinder() {}
+    protected Cylinder() {}
 
-    /**
-     * Constructor.
-     * @param height  - the height of a cylinder as a double.
-     * @param radius - the radius of a cylinder as a double.
-     */
-    public Cylinder(double height, double radius)
+    protected Cylinder( int height, int radius ) //height inherited from superclass
     {
         super(height);
         this.radius = radius;
     }
 
+
     //Getters & Setters
-    /**
-     * @return - the radius of a cylinder as a double.
-     */
-    public double getRadius()
+    protected int getRadius() //g&s for height comes from superclass
     {
         return radius;
     }
 
-    /**
-     * Sets the radius of a cylinder.
-     * @param radius - the radius of a cylinder as a double.
-     */
-    public void setRadius(double radius)
+    protected void setRadius( int radius )
     {
         this.radius = radius;
     }
 
+
     //Methods
-    /**
-     * {@inheritDoc}
-     */
     @Override
-    public double getBaseArea()
+    protected int getBaseArea() //as class not abstract, must give functionality for inherited methods
     {
-        return Math.PI * Math.pow( getRadius(), 2 );
+        return (int) ( Math.PI * Math.pow( getRadius(), 2 ) );
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
-    public double getVolume()
+    protected int getVolume()
     {
         return getBaseArea() * getHeight();
     }
 
-    /**
-     * Returns a String containing the data of an instance of a Cylinder object.
-     */
     @Override
     public String toString()
     {
-        return "Cylinder [height=" + getHeight() + ", radius=" + radius + ", base area=" + getBaseArea() + ", volume=" + getVolume() + "]";
+        return super.toString() +
+                "/nRadius: " + getRadius() +
+                "/nBase area: " + getBaseArea() +
+                "/nVolume: " + getVolume();
     }
+
+}

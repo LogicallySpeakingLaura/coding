@@ -1,10 +1,18 @@
 package inheritance;
 
-abstract class Shape
+/**
+ * Class that demonstrates the superclass for inheritance.
+ *
+ * @author LogicallySpeakingLaura
+ * @version 2020.10.17
+ * @see Prism for an abstract subclass
+ * @see Cylinder for a subclass
+ */
+abstract class Shape //abstract - class cannot be instantiated
 {
 
     //Attributes
-    private int height;
+    private int height; //will be inherited by all subclasses
 
 
     //Constructors
@@ -29,7 +37,7 @@ abstract class Shape
 
 
     //Methods
-    protected abstract int getBaseArea();
+    protected abstract int getBaseArea(); //abstract methods must be used by subclasses
 
     protected abstract int getVolume();
 

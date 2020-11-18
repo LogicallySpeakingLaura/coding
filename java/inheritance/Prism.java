@@ -1,29 +1,37 @@
 package inheritance;
 
-abstract class Prism extends Shape
-{
+/**
+ * Class that demonstrates an abstract subclass for inheritance.
+ *
+ * @author LogicallySpeakingLaura
+ * @version 2020.10.17
+ * @see Shape for an abstract superclass
+ * @see PrismSquare for a subclass
+ */
+abstract class Prism extends Shape //cannot be instantiated but still can inherit from its superclass
+{                                   //and then pass down to its own subclasses
 
     //Attributes
-    private int length;
+    private int length; //can be passed down to subclass
 
 
     //Constructors
-    public Prism() {}
+    protected Prism() {}
 
-    public Prism( int height, int length )
+    protected Prism( int height, int length ) //height inherited from Shape
     {
-        super(height);
+        super(height); //super accesses the superclass attribute
         this.length = length;
     }
 
 
     //Getters & Setters
-    public double getLength()
+    protected int getLength()
     {
         return length;
-    }
+    } //no g&s for height as that comes from superclass
 
-    public void setLength( int length )
+    protected void setLength( int length )
     {
         this.length = length;
     }
@@ -31,14 +39,14 @@ abstract class Prism extends Shape
 
     //Methods
     @Override
-    public abstract int getBaseArea();
-
+    protected abstract int getBaseArea(); //as superclass abstract must have these methods
+                                            //but can make abstract as this is abstract
     @Override
-    public abstract int getVolume();
+    protected abstract int getVolume();
 
     public String toString()
     {
-        return super.toString() +
+        return super.toString() + //super gets toString() of superclass
                 "/nLength: " + length;
     }
 

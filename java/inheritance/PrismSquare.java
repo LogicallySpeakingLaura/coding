@@ -1,46 +1,43 @@
 package inheritance;
 
-public class PrismSquare extends Prism
+/**
+ * Class that demonstrates a subclass for inheritance.
+ *
+ * @author LogicallySpeakingLaura
+ * @version 2020.10.17
+ * @see Shape for superclass of superclass/grandparent
+ * @see Prism for superclass/parent
+ */
+class PrismSquare extends Prism //not abstract, class can be instantiated
 {
-    //Constructors
-    /**
-     * Default constructor
-     */
-    public SquarePrism() {}
 
-    /**
-     * Constructor.
-     * @param height  - the height of a prism as a double.
-     * @param length - the side length of a prism as a double.
-     */
-    public SquarePrism(double height, double length)
+    //Constructors
+    protected PrismSquare() {}
+
+    protected PrismSquare( int height, int length ) //no need for attributes if only ones needed come from superclass(es)
     {
-        super( height, length );
+        super(height, length);
     }
+
 
     //Methods
-    /**
-     * {@inheritDoc}
-     */
     @Override
-    public double getBaseArea()
+    protected int getBaseArea() //must inherit abstract methods and give functionality
     {
-        return Math.pow( getLength(), 2 );
+        return (int) Math.pow(getLength(), 2);
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
-    public double getVolume()
+    protected int getVolume()
     {
         return getBaseArea() * getHeight();
     }
 
-    /**
-     * Returns a String containing the data of an instance of a SquarePrism object.
-     */
     public String toString()
     {
-        return "Square Prism [height=" + getHeight() + ", length=" + getHeight() + ", base area=" + getBaseArea() + ", volume=" + getVolume() + "]";
+        return super.toString() +
+                "/nBase area: " + getBaseArea() +
+                "/nVolume: " + getVolume();
     }
+
+}
