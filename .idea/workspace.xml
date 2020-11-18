@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e464d651-2a0f-4e4d-9d6b-ab2675508175" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/comparisons/CompareWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/comparisons/Liquid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/comparisons/old/CompareBaseArea.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/comparisons/old/CompareHeight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/comparisons/old/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/datastructures/old/binary-tree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/datastructures/old/binary-tree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/inheritance/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/inheritance/Cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/inheritance/Prism.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/inheritance/Prism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/inheritance/PrismSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/inheritance/PrismSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/inheritance/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/inheritance/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,7 @@
       <workItem from="1605583206457" duration="51000" />
       <workItem from="1605585365765" duration="172000" />
       <workItem from="1605660817978" duration="709000" />
-      <workItem from="1605661899372" duration="6346000" />
+      <workItem from="1605661899372" duration="6839000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-package inheritance;
+package object_construction.inheritance;
 
 /**
  * Class that demonstrates an abstract subclass for inheritance.
