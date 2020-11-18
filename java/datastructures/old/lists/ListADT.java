@@ -1,7 +1,7 @@
 package utilities;
 
 import java.io.Serializable;
-import utilities.Iterator;
+import datastructures.old.Iterator;
 
 /**
  * <p>

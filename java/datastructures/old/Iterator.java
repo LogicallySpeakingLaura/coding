@@ -1,4 +1,4 @@
-package utilities;
+package datastructures.old;
 
 import java.util.NoSuchElementException;
 

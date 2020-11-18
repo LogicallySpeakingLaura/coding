@@ -1,8 +1,6 @@
-package model.comparators;
+package comparisons.old;
 
 import java.util.Comparator;
-
-import model.shapes.Shape;
 
 /**
  * This class allows shapes to be compared by their base area.

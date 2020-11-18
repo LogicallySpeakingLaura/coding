@@ -51,8 +51,7 @@ public class BST< E extends Comparable< ? super E > > implements BSTreeADT<E>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
-	public int getHeight() 
+	public int getHeight()
 	{
 		return calcHeight(root);
 	}

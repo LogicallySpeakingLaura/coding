@@ -3,7 +3,7 @@ package utilities;
 import java.lang.reflect.Array;
 import java.util.NoSuchElementException;
 
-import utilities.Iterator;
+import datastructures.old.Iterator;
 
 /**
  * Class that implements a List interface as a DLL.

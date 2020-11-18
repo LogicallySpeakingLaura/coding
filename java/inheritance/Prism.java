@@ -1,67 +1,45 @@
-package model.shapes;
+package inheritance;
 
-/**
- * This subclass defines the common parameters needed for different types of prisms, inheriting common parameters from Shape.
- * @author 776298
- */
-public abstract class Prism extends Shape
+abstract class Prism extends Shape
 {
-	//Attributes
-	private double length;
-	
-	//Constructors
-	/**
-	 * Default constructor
-	 */
-	public Prism() {}
-			
-	/**
-	 * Constructor.
-	 * @param height  - the height of a prism as a double.
-	 * @param length - the side length of a prism as a double.
-	 */
-	public Prism(double height, double length)
-	{
-		super(height);
-		this.length = length;
-	}
-		
-	//Getters & Setters
-	/**
-	 * @return - the side length of a prism as a double.
-	 */
-	public double getLength() 
-	{
-		return length;
-	}
 
-	/**
-	 * Sets the side length of a prism.
-	 * @param length - the side length of a prism as a double.
-	 */
-	public void setLength(double length) 
-	{
-		this.length = length;
-	}
-	
-	//Methods
-	/**
-	 * {@inheritDoc}
-	 */
-	@Override
-	public abstract double getBaseArea();
+    //Attributes
+    private int length;
 
-	/**
-	 * {@inheritDoc}
-	 */
-	@Override
-	public abstract double getVolume();
-	
-	/**
-	 * Returns a String containing the data of an instance of a Prism object.
-	 */
-	public String toString()
-	{
-		return "Prism [height=" + getHeight() + ", length=" + length + "]";
-	}
+
+    //Constructors
+    public Prism() {}
+
+    public Prism( int height, int length )
+    {
+        super(height);
+        this.length = length;
+    }
+
+
+    //Getters & Setters
+    public double getLength()
+    {
+        return length;
+    }
+
+    public void setLength( int length )
+    {
+        this.length = length;
+    }
+
+
+    //Methods
+    @Override
+    public abstract int getBaseArea();
+
+    @Override
+    public abstract int getVolume();
+
+    public String toString()
+    {
+        return super.toString() +
+                "/nLength: " + length;
+    }
+
 }
