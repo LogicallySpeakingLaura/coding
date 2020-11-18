@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e464d651-2a0f-4e4d-9d6b-ab2675508175" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/inheritance/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/inheritance/Cylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/inheritance/Prism.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/inheritance/Prism.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/inheritance/PrismSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/inheritance/PrismSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/inheritance/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/inheritance/Shape.java" afterDir="false" />
-    </list>
+    <list default="true" id="e464d651-2a0f-4e4d-9d6b-ab2675508175" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +67,7 @@
       <workItem from="1605583206457" duration="51000" />
       <workItem from="1605585365765" duration="172000" />
       <workItem from="1605660817978" duration="709000" />
-      <workItem from="1605661899372" duration="6839000" />
+      <workItem from="1605661899372" duration="6980000" />
     </task>
     <servers />
   </component>
