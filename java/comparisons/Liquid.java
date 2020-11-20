@@ -1,10 +1,10 @@
 package comparisons;
 
 /**
- * Class that demonstrates how to use the Comparable interface to compare two different objects.
+ * Class that demonstrates how to use the Comparable interface to compare two object instances.
  *
  * @author LogicallySpeakingLaura
- * @version 2020.10.17
+ * @version 2020.10.19
  */
 class Liquid implements Comparable<Liquid> //need to implement Comparable interface and specify object type
 {

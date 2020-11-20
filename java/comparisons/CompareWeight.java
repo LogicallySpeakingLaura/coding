@@ -3,10 +3,10 @@ package comparisons;
 import java.util.Comparator;
 
 /**
- * Class that demonstrates how to use the Comparator interface to compare two different objects.
+ * Class that demonstrates how to use the Comparator interface to compare two object instances.
  *
  * @author LogicallySpeakingLaura
- * @version 2020.10.17
+ * @version 2020.10.19
  * @see Liquid for compared object
  */
 class CompareWeight implements Comparator<Liquid>
