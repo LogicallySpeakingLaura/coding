@@ -1,7 +1,7 @@
 package object_construction.inheritance;
 
 /**
- * Class that demonstrates a subclass for inheritance.
+ * Class that demonstrates a subclass for inheritance. Prism IS-A Shape and PrismSquare IS-A Prism for their lifecycles.
  *
  * @author LogicallySpeakingLaura
  * @version 2020.10.17

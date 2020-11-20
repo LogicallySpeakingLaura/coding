@@ -1,22 +1,40 @@
 package object_construction.composition;
 
+import java.util.List;
+
+/**
+ * Class that demonstrates a HAS-A relationship for composition. For this example, both objects cannot exist without the other.
+ * The Provider cannot be a Provider if there is no Service to give, A Service does not exist if there is nothing to distribute it.
+ *
+ * @author LogicallySpeakingLaura
+ * @version 2020.10.19
+ * @see Service
+ */
 class Provider
 {
 
-    private Service service;
+    //Attribute
+    private List<Service> services;
 
+
+    //Constructors
     protected Provider() {}
 
-    protected Provider( Service service )
+    protected Provider( List<Service> services )
     {
-        this.service = new Service( "product provided" );
+        this.services = services;
     }
 
-    protected Service getService() {
-        return service;
+
+    //Getter & Setter
+    public List<Service> getServices()
+    {
+        return services;
     }
 
-    protected void setService(Service service) {
-        this.service = service;
+    public void setServices( List<Service> services )
+    {
+        this.services = services;
     }
+
 }

@@ -1,7 +1,7 @@
 package object_construction.inheritance;
 
 /**
- * Class that demonstrates an abstract subclass for inheritance.
+ * Class that demonstrates an abstract subclass for inheritance. Prism IS-A Shape for its entire lifecycle.
  *
  * @author LogicallySpeakingLaura
  * @version 2020.10.17

@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e464d651-2a0f-4e4d-9d6b-ab2675508175" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/object_construction/aggregation/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/object_construction/aggregation/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/object_construction/composition/Provider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/object_construction/composition/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/object_construction/aggregation/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/aggregation/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/object_construction/aggregation/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/aggregation/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/object_construction/composition/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/composition/Provider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/object_construction/composition/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/composition/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/object_construction/inheritance/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/inheritance/Cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/object_construction/inheritance/Prism.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/inheritance/Prism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/object_construction/inheritance/PrismSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/inheritance/PrismSquare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +49,6 @@
       <recent name="$PROJECT_DIR$/java/comparisons" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,6 +63,7 @@
       <workItem from="1605660817978" duration="709000" />
       <workItem from="1605661899372" duration="6980000" />
       <workItem from="1605741225534" duration="1220000" />
+      <workItem from="1605843637364" duration="1504000" />
     </task>
     <servers />
   </component>
@@ -80,10 +71,11 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="174" key="#com.intellij.ide.util.MemberChooser" timestamp="1605673315118">
-      <screen x="51" y="23" width="1389" height="877" />
+    <state x="559" y="174" key="#com.intellij.ide.util.MemberChooser" timestamp="1605844882596">
+      <screen x="53" y="23" width="1387" height="877" />
     </state>
     <state x="558" y="174" key="#com.intellij.ide.util.MemberChooser/51.23.1389.877@51.23.1389.877" timestamp="1605673315118" />
+    <state x="559" y="174" key="#com.intellij.ide.util.MemberChooser/53.23.1387.877@53.23.1387.877" timestamp="1605844882596" />
     <state x="231" y="42" key="SettingsEditor" timestamp="1605662709255">
       <screen x="51" y="23" width="1389" height="877" />
     </state>
