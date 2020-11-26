@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e464d651-2a0f-4e4d-9d6b-ab2675508175" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/sorts/Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/sorts/Bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/sorts/Collections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/sorts/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/sorts/Insertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/sorts/Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/sorts/Quick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/sorts/Selection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/coding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/coding.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/sorts/old/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/sorts/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/sorts/Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/sorts/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/sorts/Insertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/sorts/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/sorts/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/sorts/old/GnomeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/sorts/old/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/sorts/old/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Bubble.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding/sorts/Bubble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding/sorts/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +65,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,7 +100,8 @@
       <workItem from="1605741225534" duration="1220000" />
       <workItem from="1605843637364" duration="2267000" />
       <workItem from="1606189096118" duration="34000" />
-      <workItem from="1606189737307" duration="7562000" />
+      <workItem from="1606189737307" duration="7613000" />
+      <workItem from="1606344251257" duration="12748000" />
     </task>
     <servers />
   </component>
@@ -113,22 +114,34 @@
     </state>
     <state x="558" y="174" key="#com.intellij.ide.util.MemberChooser/51.23.1389.877@51.23.1389.877" timestamp="1605673315118" />
     <state x="559" y="174" key="#com.intellij.ide.util.MemberChooser/53.23.1387.877@53.23.1387.877" timestamp="1605844882596" />
-    <state width="1337" height="227" key="GridCell.Tab.0.bottom" timestamp="1606197013976">
-      <screen x="52" y="25" width="1388" height="875" />
+    <state width="1339" height="227" key="GridCell.Tab.0.bottom" timestamp="1606358172854">
+      <screen x="57" y="25" width="1383" height="875" />
     </state>
     <state width="1337" height="227" key="GridCell.Tab.0.bottom/52.25.1388.875@52.25.1388.875" timestamp="1606197013976" />
-    <state width="1337" height="227" key="GridCell.Tab.0.center" timestamp="1606197013974">
-      <screen x="52" y="25" width="1388" height="875" />
+    <state width="1339" height="227" key="GridCell.Tab.0.bottom/53.25.1387.875@53.25.1387.875" timestamp="1606349885855" />
+    <state width="1339" height="227" key="GridCell.Tab.0.bottom/57.25.1383.875@57.25.1383.875" timestamp="1606358172854" />
+    <state width="1339" height="227" key="GridCell.Tab.0.bottom/59.25.1381.875@59.25.1381.875" timestamp="1606345287169" />
+    <state width="1339" height="227" key="GridCell.Tab.0.center" timestamp="1606358172853">
+      <screen x="57" y="25" width="1383" height="875" />
     </state>
     <state width="1337" height="227" key="GridCell.Tab.0.center/52.25.1388.875@52.25.1388.875" timestamp="1606197013974" />
-    <state width="1337" height="227" key="GridCell.Tab.0.left" timestamp="1606197013973">
-      <screen x="52" y="25" width="1388" height="875" />
+    <state width="1339" height="227" key="GridCell.Tab.0.center/53.25.1387.875@53.25.1387.875" timestamp="1606349885854" />
+    <state width="1339" height="227" key="GridCell.Tab.0.center/57.25.1383.875@57.25.1383.875" timestamp="1606358172853" />
+    <state width="1339" height="227" key="GridCell.Tab.0.center/59.25.1381.875@59.25.1381.875" timestamp="1606345287167" />
+    <state width="1339" height="227" key="GridCell.Tab.0.left" timestamp="1606358172852">
+      <screen x="57" y="25" width="1383" height="875" />
     </state>
     <state width="1337" height="227" key="GridCell.Tab.0.left/52.25.1388.875@52.25.1388.875" timestamp="1606197013973" />
-    <state width="1337" height="227" key="GridCell.Tab.0.right" timestamp="1606197013974">
-      <screen x="52" y="25" width="1388" height="875" />
+    <state width="1339" height="227" key="GridCell.Tab.0.left/53.25.1387.875@53.25.1387.875" timestamp="1606349885853" />
+    <state width="1339" height="227" key="GridCell.Tab.0.left/57.25.1383.875@57.25.1383.875" timestamp="1606358172852" />
+    <state width="1339" height="227" key="GridCell.Tab.0.left/59.25.1381.875@59.25.1381.875" timestamp="1606345287166" />
+    <state width="1339" height="227" key="GridCell.Tab.0.right" timestamp="1606358172853">
+      <screen x="57" y="25" width="1383" height="875" />
     </state>
     <state width="1337" height="227" key="GridCell.Tab.0.right/52.25.1388.875@52.25.1388.875" timestamp="1606197013974" />
+    <state width="1339" height="227" key="GridCell.Tab.0.right/53.25.1387.875@53.25.1387.875" timestamp="1606349885854" />
+    <state width="1339" height="227" key="GridCell.Tab.0.right/57.25.1383.875@57.25.1383.875" timestamp="1606358172853" />
+    <state width="1339" height="227" key="GridCell.Tab.0.right/59.25.1381.875@59.25.1381.875" timestamp="1606345287168" />
     <state x="233" y="42" key="SettingsEditor" timestamp="1605845982954">
       <screen x="53" y="23" width="1387" height="877" />
     </state>
