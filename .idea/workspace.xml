@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e464d651-2a0f-4e4d-9d6b-ab2675508175" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/sorts/Heap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/sorts/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/sorts/Insertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/sorts/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/sorts/Merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/sorts/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/sorts/Quick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/sorts/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/sorts/Selection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/sorts/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/sorts/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/sorts/old/QuickSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/sorts/old/SelectionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Merge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding/sorts/Merge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Quick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding/sorts/Quick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding/sorts/Selection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coding/sorts/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/sorts/Arrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/sorts/Collections.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +95,7 @@
       <workItem from="1606344251257" duration="12748000" />
       <workItem from="1606447335749" duration="8197000" />
       <workItem from="1606457094236" duration="3208000" />
-      <workItem from="1606703693574" duration="7920000" />
+      <workItem from="1606703693574" duration="8045000" />
     </task>
     <servers />
   </component>
