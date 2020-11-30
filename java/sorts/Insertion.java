@@ -13,7 +13,7 @@ import java.util.List;
  * @author LogicallySpeakingLaura
  * @version 2020.11.25
  */
-public class Insertion
+class Insertion
 {
 
     /*

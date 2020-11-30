@@ -12,7 +12,7 @@ import java.util.*;
  * @author LogicallySpeakingLaura
  * @version 2020.11.25
  */
-public class Merge
+class Merge
 {
 
     /*
@@ -170,7 +170,7 @@ public class Merge
         if ( list.size() == 1 ) //recursion base
             return;
 
-        //T is abstract so can't be instantiated into a sublist of List to divide master list, so have used ArrayList for this implementation
+        //sub-lists for master list
         ArrayList<Integer> left = new ArrayList<>();
         ArrayList<Integer> right = new ArrayList<>();
 
@@ -209,13 +209,14 @@ public class Merge
     /**
      * This method implements a merge sort of a list using the compareTo() method of the Comparable interface.
      * Functional for any data type and any object with compareTo defined.
+     * T is abstract so can't be instantiated for recursive purposes, so have used ArrayList for this implementation.
      */
     protected < T extends Comparable< ? super T > > void sortObjectList( List<T> list )
     {
         if ( list.size() == 1 ) //recursion base
             return;
 
-        //T is abstract so can't be instantiated into a sublist of List to divide master list, so have used ArrayList for this implementation
+        //sub-lists for master list
         ArrayList<T> left = new ArrayList<>();
         ArrayList<T> right = new ArrayList<>();
 
@@ -255,13 +256,14 @@ public class Merge
      * This method implements a merge sort of a list using the compare() method of the Comparator interface.
      * Functional for any object with a related class for comparison.
      * The param comp is for the Class implementing Comparator.
+     * T is abstract so can't be instantiated for recursive purposes, so have used ArrayList for this implementation.
      */
     protected <T> void sortComparatorList( List<T> list, Comparator< ? super T > comp )
     {
         if ( list.size() == 1 ) //recursion base
             return;
 
-        //T is abstract so can't be instantiated into a sublist of List to divide master list, so have used ArrayList for this implementation
+        //sub-lists for master list
         ArrayList<T> left = new ArrayList<>();
         ArrayList<T> right = new ArrayList<>();
 
