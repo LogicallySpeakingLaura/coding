@@ -1,7 +1,14 @@
 package object_construction.interfaces;
 
+/**
+ * Standard abstract superclass used to demonstrate multiple inheritance with Interfaces.
+ *
+ * @author LogicallySpeakingLaura
+ * @version 2020.12.03
+ * @see ./inheritance/Shape for a detailed description of this type of Class
+ */
 abstract class Phone
-{//TODO comments
+{
 
     //Attributes
     private long serialNumber;

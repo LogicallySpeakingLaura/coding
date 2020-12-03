@@ -2,34 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e464d651-2a0f-4e4d-9d6b-ab2675508175" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/object_construction/interfaces/Android.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/object_construction/interfaces/Case.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/object_construction/interfaces/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/object_construction/interfaces/Samsung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/object_construction/interfaces/iOS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/object_construction/interfaces/iPhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/comparisons/CompareWeight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/comparisons/Liquid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/object_construction/aggregation/Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/object_construction/aggregation/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/object_construction/composition/Provider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/object_construction/composition/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/object_construction/inheritance/Cylinder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/object_construction/inheritance/Prism.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/object_construction/inheritance/PrismSquare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/object_construction/inheritance/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Arrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Bubble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Collections.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Insertion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Merge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Quick$SortComparatorArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Quick$SortObjectArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Quick$SortPrimitiveArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Quick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Selection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/object_construction/interfaces/Android.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/interfaces/Android.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/object_construction/interfaces/Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/interfaces/Case.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/object_construction/interfaces/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/interfaces/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/object_construction/interfaces/Samsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/interfaces/Samsung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/object_construction/interfaces/iOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/interfaces/iOS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/object_construction/interfaces/iPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/interfaces/iPhone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,13 +64,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,6 +104,7 @@
       <workItem from="1606447335749" duration="8197000" />
       <workItem from="1606457094236" duration="3208000" />
       <workItem from="1606703693574" duration="11210000" />
+      <workItem from="1607031927467" duration="2500000" />
     </task>
     <servers />
   </component>

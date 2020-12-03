@@ -1,7 +1,16 @@
 package object_construction.interfaces;
 
-class Samsung extends Phone implements Android, Case
-{//TODO comments
+/**
+ * Subclass to demonstrate how an Interface can be used for multiple inheritance.
+ *
+ * @author LogicallySpeakingLaura
+ * @version 2020.12.03
+ * @see ./inheritance/Cylinder for a detailed description of this type of Class
+ * @see Android for interface
+ * @see Case for interface
+ */
+class Samsung extends Phone implements Android, Case //can use multiple interfaces, separate with a comma
+{
 
     //Attributes
     private String model;
@@ -11,31 +20,37 @@ class Samsung extends Phone implements Android, Case
     //Constructors
     protected Samsung() {}
 
-    public Samsung( long serialNumber, long mobileNumber, String model, boolean isFoldable )
+    protected Samsung( long serialNumber, long mobileNumber, boolean hasWarranty, String model, boolean isFoldable )
     {
         super( serialNumber, mobileNumber );
         this.model = model;
         this.isFoldable = isFoldable;
+        hasWarranty = this.getWarranty(); //no point of local var as interface makes this constant
     }
 
 
     //Setters & Getters
-    public String getModel()
+    protected boolean getWarranty() //if there are attributes to access in interface can only use a getter
+    {                               //no setter as they are constant
+        return Case.HAS_WARRANTY;
+    }
+
+    protected String getModel()
     {
         return model;
     }
 
-    public void setModel( String model )
+    protected void setModel( String model )
     {
         this.model = model;
     }
 
-    public boolean isFoldable()
+    protected boolean isFoldable()
     {
         return isFoldable;
     }
 
-    public void setFoldable( boolean foldable )
+    protected void setFoldable( boolean foldable )
     {
         isFoldable = foldable;
     }
@@ -56,7 +71,7 @@ class Samsung extends Phone implements Android, Case
     }
 
     @Override
-    public String[] getPlayStorePurchases()
+    public String[] getPlayStorePurchases() //these 5 methods inherited from 2 different interfaces and must be implemented
     {
         //implementation...
         return new String[ 0 ];
