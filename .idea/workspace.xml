@@ -2,8 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e464d651-2a0f-4e4d-9d6b-ab2675508175" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java/sorts/Arrays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/sorts/Collections.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/object_construction/interfaces/Android.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/object_construction/interfaces/Case.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/object_construction/interfaces/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/object_construction/interfaces/Samsung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/object_construction/interfaces/iOS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/object_construction/interfaces/iPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/comparisons/CompareWeight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/comparisons/Liquid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/object_construction/aggregation/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/object_construction/aggregation/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/object_construction/composition/Provider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/object_construction/composition/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/object_construction/inheritance/Cylinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/object_construction/inheritance/Prism.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/object_construction/inheritance/PrismSquare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/object_construction/inheritance/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Bubble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Collections.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Insertion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Merge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Quick$SortComparatorArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Quick$SortObjectArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Quick$SortPrimitiveArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Quick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Selection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/sorts/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +41,7 @@
       <list>
         <option value="package-info" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -95,7 +122,7 @@
       <workItem from="1606344251257" duration="12748000" />
       <workItem from="1606447335749" duration="8197000" />
       <workItem from="1606457094236" duration="3208000" />
-      <workItem from="1606703693574" duration="8045000" />
+      <workItem from="1606703693574" duration="11210000" />
     </task>
     <servers />
   </component>
@@ -103,42 +130,43 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="559" y="174" key="#com.intellij.ide.util.MemberChooser" timestamp="1605844882596">
-      <screen x="53" y="23" width="1387" height="877" />
-    </state>
-    <state x="558" y="174" key="#com.intellij.ide.util.MemberChooser/51.23.1389.877@51.23.1389.877" timestamp="1605673315118" />
-    <state x="559" y="174" key="#com.intellij.ide.util.MemberChooser/53.23.1387.877@53.23.1387.877" timestamp="1605844882596" />
-    <state width="1396" height="244" key="GridCell.Tab.0.bottom" timestamp="1606711737637">
+    <state x="525" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1606716410924">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606711737637" />
+    <state x="525" y="155" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1606716410924" />
+    <state x="558" y="174" key="#com.intellij.ide.util.MemberChooser/51.23.1389.877@51.23.1389.877" timestamp="1605673315118" />
+    <state x="559" y="174" key="#com.intellij.ide.util.MemberChooser/53.23.1387.877@53.23.1387.877" timestamp="1605844882596" />
+    <state width="1396" height="244" key="GridCell.Tab.0.bottom" timestamp="1606716571458">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606716571458" />
     <state width="1337" height="227" key="GridCell.Tab.0.bottom/52.25.1388.875@52.25.1388.875" timestamp="1606197013976" />
     <state width="1339" height="227" key="GridCell.Tab.0.bottom/53.25.1387.875@53.25.1387.875" timestamp="1606448497985" />
     <state width="1339" height="227" key="GridCell.Tab.0.bottom/55.25.1385.875@55.25.1385.875" timestamp="1606452405424" />
     <state width="1339" height="227" key="GridCell.Tab.0.bottom/57.25.1383.875@57.25.1383.875" timestamp="1606358172854" />
     <state width="1337" height="227" key="GridCell.Tab.0.bottom/59.25.1381.875@59.25.1381.875" timestamp="1606461209692" />
-    <state width="1396" height="244" key="GridCell.Tab.0.center" timestamp="1606711737635">
+    <state width="1396" height="244" key="GridCell.Tab.0.center" timestamp="1606716571456">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606711737635" />
+    <state width="1396" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606716571456" />
     <state width="1337" height="227" key="GridCell.Tab.0.center/52.25.1388.875@52.25.1388.875" timestamp="1606197013974" />
     <state width="1339" height="227" key="GridCell.Tab.0.center/53.25.1387.875@53.25.1387.875" timestamp="1606448497984" />
     <state width="1339" height="227" key="GridCell.Tab.0.center/55.25.1385.875@55.25.1385.875" timestamp="1606452405422" />
     <state width="1339" height="227" key="GridCell.Tab.0.center/57.25.1383.875@57.25.1383.875" timestamp="1606358172853" />
     <state width="1337" height="227" key="GridCell.Tab.0.center/59.25.1381.875@59.25.1381.875" timestamp="1606461209691" />
-    <state width="1396" height="244" key="GridCell.Tab.0.left" timestamp="1606711737635">
+    <state width="1396" height="244" key="GridCell.Tab.0.left" timestamp="1606716571455">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606711737635" />
+    <state width="1396" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606716571455" />
     <state width="1337" height="227" key="GridCell.Tab.0.left/52.25.1388.875@52.25.1388.875" timestamp="1606197013973" />
     <state width="1339" height="227" key="GridCell.Tab.0.left/53.25.1387.875@53.25.1387.875" timestamp="1606448497983" />
     <state width="1339" height="227" key="GridCell.Tab.0.left/55.25.1385.875@55.25.1385.875" timestamp="1606452405421" />
     <state width="1339" height="227" key="GridCell.Tab.0.left/57.25.1383.875@57.25.1383.875" timestamp="1606358172852" />
     <state width="1337" height="227" key="GridCell.Tab.0.left/59.25.1381.875@59.25.1381.875" timestamp="1606461209691" />
-    <state width="1396" height="244" key="GridCell.Tab.0.right" timestamp="1606711737636">
+    <state width="1396" height="244" key="GridCell.Tab.0.right" timestamp="1606716571457">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606711737636" />
+    <state width="1396" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606716571457" />
     <state width="1337" height="227" key="GridCell.Tab.0.right/52.25.1388.875@52.25.1388.875" timestamp="1606197013974" />
     <state width="1339" height="227" key="GridCell.Tab.0.right/53.25.1387.875@53.25.1387.875" timestamp="1606448497984" />
     <state width="1339" height="227" key="GridCell.Tab.0.right/55.25.1385.875@55.25.1385.875" timestamp="1606452405423" />
