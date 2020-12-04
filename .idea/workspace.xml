@@ -2,13 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e464d651-2a0f-4e4d-9d6b-ab2675508175" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java/datastructures/lists/ListADT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/lists/ListIteratorInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/queue/QueueADT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/stack/StackADT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/trees/TreeADT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/trees/binary_tree/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/trees/binary_tree/BSTreeADT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/trees/binary_tree/BSTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/sorts/Radix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/object_construction/interfaces/Android.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/interfaces/Android.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/object_construction/interfaces/Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/interfaces/Case.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/object_construction/interfaces/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/interfaces/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/object_construction/interfaces/Samsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/interfaces/Samsung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/object_construction/interfaces/iOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/interfaces/iOS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/object_construction/interfaces/iPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/object_construction/interfaces/iPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/old/Iterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/old/binary-tree/BST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/old/binary-tree/BSTreeADT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/old/binary-tree/BSTreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/old/lists/ListADT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/old/lists/array-list/MyArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/old/lists/double-linked-list/DLL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/old/lists/double-linked-list/DLLNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/old/queue/MyQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/old/queue/QueueADT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/old/stack/MyStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/old/stack/StackADT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/.idea/java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coding/datastructures/old/Iterator.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,15 +88,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,7 +126,8 @@
       <workItem from="1606447335749" duration="8197000" />
       <workItem from="1606457094236" duration="3208000" />
       <workItem from="1606703693574" duration="11210000" />
-      <workItem from="1607031927467" duration="2500000" />
+      <workItem from="1607031927467" duration="5047000" />
+      <workItem from="1607041204628" duration="5869000" />
     </task>
     <servers />
   </component>
@@ -112,12 +135,13 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="525" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1606716410924">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="561" y="176" key="#com.intellij.ide.util.MemberChooser" timestamp="1607047025722">
+      <screen x="57" y="25" width="1383" height="875" />
     </state>
     <state x="525" y="155" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1606716410924" />
     <state x="558" y="174" key="#com.intellij.ide.util.MemberChooser/51.23.1389.877@51.23.1389.877" timestamp="1605673315118" />
     <state x="559" y="174" key="#com.intellij.ide.util.MemberChooser/53.23.1387.877@53.23.1387.877" timestamp="1605844882596" />
+    <state x="561" y="176" key="#com.intellij.ide.util.MemberChooser/57.25.1383.875@57.25.1383.875" timestamp="1607047025722" />
     <state width="1396" height="244" key="GridCell.Tab.0.bottom" timestamp="1606716571458">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -159,5 +183,9 @@
     </state>
     <state x="231" y="42" key="SettingsEditor/51.23.1389.877@51.23.1389.877" timestamp="1605662709255" />
     <state x="233" y="42" key="SettingsEditor/53.23.1387.877@53.23.1387.877" timestamp="1605845982954" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1607044777830">
+      <screen x="57" y="25" width="1383" height="875" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/57.25.1383.875@57.25.1383.875" timestamp="1607044777830" />
   </component>
 </project>
