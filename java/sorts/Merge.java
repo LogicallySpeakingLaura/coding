@@ -8,7 +8,7 @@ import java.util.*;
  *
  * There are six methods. The first three show a merge sort for arrays of any primitive data type, objects using compareTo, then
  * objects using Comparator. The last three shows implementation for the same but for lists.
- **
+ *
  * @author LogicallySpeakingLaura
  * @version 2020.11.25
  */

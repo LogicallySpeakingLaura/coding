@@ -1,26 +1,26 @@
 package datastructures.lists;
 
-interface ListADT<T>
+interface SortedListADT<T>
 {
 
     void add( T element );
 
-    void add( int pos, T element );
+    T remove( T element );
 
     T remove( int pos );
 
-    void clear();
-
-    T set( int pos, T element );
+    T getPos( T element );
 
     T getElement( int pos );
 
-    T[] toArray();
-
     boolean contains( T element );
+
+    void clear();
 
     int getLength();
 
     boolean isEmpty();
+
+    T[] toArray();
 
 }

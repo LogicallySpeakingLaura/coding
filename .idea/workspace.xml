@@ -2,37 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e464d651-2a0f-4e4d-9d6b-ab2675508175" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/datastructures/lists/ListADT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/datastructures/lists/ListIteratorInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/datastructures/queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/datastructures/queue/QueueADT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/datastructures/stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/datastructures/stack/StackADT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/datastructures/trees/TreeADT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/datastructures/trees/binary_tree/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/datastructures/trees/binary_tree/BSTreeADT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/datastructures/trees/binary_tree/BSTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/sorts/Radix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/bags/BagADT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/bags/BagImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/dictionary/DictionaryADT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/lists/SortedListADT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/queue/DequeueADT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/queue/PriorityQueueADT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/queue/QueueImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/stack/StackImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/trees/BinaryTreeADT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/trees/MaxHeapADT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/trees/SearchTree_ADT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/datastructures/trees/TreeIteratorInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/sorts/Shell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/datastructures/old/Iterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/datastructures/old/binary-tree/BST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/datastructures/old/binary-tree/BSTreeADT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/datastructures/old/binary-tree/BSTreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/datastructures/old/lists/ListADT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/datastructures/old/lists/array-list/MyArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/datastructures/old/lists/double-linked-list/DLL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/datastructures/old/lists/double-linked-list/DLLNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/datastructures/old/queue/MyQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/datastructures/old/queue/QueueADT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/datastructures/old/stack/MyStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/datastructures/old/stack/StackADT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/.idea/java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding/datastructures/old/Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/lists/ListADT.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/datastructures/lists/ListADT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/lists/ListIteratorInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/queue/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/queue/QueueADT.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/datastructures/queue/QueueADT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/stack/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/stack/StackADT.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/datastructures/stack/StackADT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/trees/TreeADT.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/datastructures/trees/TreeADT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/trees/binary_tree/BST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/trees/binary_tree/BSTreeADT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/datastructures/trees/binary_tree/BSTreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/sorts/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/sorts/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/sorts/Radix.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/sorts/Radix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +62,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/java/src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="datastructures.trees" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java/comparisons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java/src" />
     </key>
   </component>
   <component name="RunManager">
@@ -88,13 +86,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,6 +128,7 @@
       <workItem from="1606703693574" duration="11210000" />
       <workItem from="1607031927467" duration="5047000" />
       <workItem from="1607041204628" duration="5869000" />
+      <workItem from="1607093639351" duration="21915000" />
     </task>
     <servers />
   </component>
@@ -135,13 +136,18 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="561" y="176" key="#com.intellij.ide.util.MemberChooser" timestamp="1607047025722">
-      <screen x="57" y="25" width="1383" height="875" />
+    <state x="562" y="176" key="#com.intellij.ide.util.MemberChooser" timestamp="1607230644889">
+      <screen x="59" y="25" width="1381" height="875" />
     </state>
     <state x="525" y="155" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1606716410924" />
     <state x="558" y="174" key="#com.intellij.ide.util.MemberChooser/51.23.1389.877@51.23.1389.877" timestamp="1605673315118" />
     <state x="559" y="174" key="#com.intellij.ide.util.MemberChooser/53.23.1387.877@53.23.1387.877" timestamp="1605844882596" />
     <state x="561" y="176" key="#com.intellij.ide.util.MemberChooser/57.25.1383.875@57.25.1383.875" timestamp="1607047025722" />
+    <state x="562" y="176" key="#com.intellij.ide.util.MemberChooser/59.25.1381.875@59.25.1381.875" timestamp="1607230644889" />
+    <state x="521" y="360" width="454" height="213" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607228068105">
+      <screen x="59" y="25" width="1381" height="875" />
+    </state>
+    <state x="521" y="360" width="454" height="213" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/59.25.1381.875@59.25.1381.875" timestamp="1607228068105" />
     <state width="1396" height="244" key="GridCell.Tab.0.bottom" timestamp="1606716571458">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
